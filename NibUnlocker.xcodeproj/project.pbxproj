@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABC2FE58225BA7B8008634B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2FE57225BA7B8008634B6 /* AppDelegate.m */; };
-		ABC2FE5B225BA7B8008634B6 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2FE5A225BA7B8008634B6 /* Document.m */; };
-		ABC2FE5E225BA7B8008634B6 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2FE5C225BA7B8008634B6 /* Document.xib */; };
-		ABC2FE60225BA7BA008634B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC2FE5F225BA7BA008634B6 /* Assets.xcassets */; };
-		ABC2FE63225BA7BA008634B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2FE61225BA7BA008634B6 /* MainMenu.xib */; };
+		AB7C0A59225BACEE00545DDB /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7C0A58225BACEE00545DDB /* AppDelegate.h */; };
+		AB7C0A5B225BACF300545DDB /* CSNibParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7C0A5A225BACF300545DDB /* CSNibParser.h */; };
+		AB7C0A5D225BACF700545DDB /* NibDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7C0A5C225BACF700545DDB /* NibDocument.h */; };
+		AB7C0A61225BAD4700545DDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7C0A60225BAD4600545DDB /* AppDelegate.m */; };
+		ABC2FE60225BA7BA008634B6 /* NibUnlocker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC2FE5F225BA7BA008634B6 /* NibUnlocker.xcassets */; };
 		ABC2FE66225BA7BA008634B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2FE65225BA7BA008634B6 /* main.m */; };
+		ABC2FE72225BABE6008634B6 /* English.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ABC2FE71225BABE6008634B6 /* English.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB7C0A58225BACEE00545DDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB7C0A5A225BACF300545DDB /* CSNibParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSNibParser.h; sourceTree = "<group>"; };
+		AB7C0A5C225BACF700545DDB /* NibDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NibDocument.h; sourceTree = "<group>"; };
+		AB7C0A60225BAD4600545DDB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		ABC2FE53225BA7B8008634B6 /* NibUnlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibUnlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC2FE56225BA7B8008634B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ABC2FE57225BA7B8008634B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ABC2FE59225BA7B8008634B6 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		ABC2FE5A225BA7B8008634B6 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		ABC2FE5D225BA7B8008634B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
-		ABC2FE5F225BA7BA008634B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABC2FE62225BA7BA008634B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABC2FE5F225BA7BA008634B6 /* NibUnlocker.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = NibUnlocker.xcassets; sourceTree = "<group>"; };
 		ABC2FE64225BA7BA008634B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC2FE65225BA7BA008634B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABC2FE67225BA7BA008634B6 /* NibUnlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NibUnlocker.entitlements; sourceTree = "<group>"; };
+		ABC2FE71225BABE6008634B6 /* English.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = English.lproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +40,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB7C0A5E225BAD0400545DDB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C0A5C225BACF700545DDB /* NibDocument.h */,
+				AB7C0A5A225BACF300545DDB /* CSNibParser.h */,
+				AB7C0A58225BACEE00545DDB /* AppDelegate.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		AB7C0A5F225BAD3B00545DDB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AB7C0A60225BAD4600545DDB /* AppDelegate.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		ABC2FE4A225BA7B8008634B6 = {
 			isa = PBXGroup;
 			children = (
+				AB7C0A5F225BAD3B00545DDB /* Sources */,
+				AB7C0A5E225BAD0400545DDB /* Headers */,
 				ABC2FE55225BA7B8008634B6 /* NibUnlocker */,
 				ABC2FE54225BA7B8008634B6 /* Products */,
 			);
@@ -59,13 +79,8 @@
 		ABC2FE55225BA7B8008634B6 /* NibUnlocker */ = {
 			isa = PBXGroup;
 			children = (
-				ABC2FE56225BA7B8008634B6 /* AppDelegate.h */,
-				ABC2FE57225BA7B8008634B6 /* AppDelegate.m */,
-				ABC2FE59225BA7B8008634B6 /* Document.h */,
-				ABC2FE5A225BA7B8008634B6 /* Document.m */,
-				ABC2FE5C225BA7B8008634B6 /* Document.xib */,
-				ABC2FE5F225BA7BA008634B6 /* Assets.xcassets */,
-				ABC2FE61225BA7BA008634B6 /* MainMenu.xib */,
+				ABC2FE5F225BA7BA008634B6 /* NibUnlocker.xcassets */,
+				ABC2FE71225BABE6008634B6 /* English.lproj */,
 				ABC2FE64225BA7BA008634B6 /* Info.plist */,
 				ABC2FE65225BA7BA008634B6 /* main.m */,
 				ABC2FE67225BA7BA008634B6 /* NibUnlocker.entitlements */,
@@ -75,11 +90,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		ABC2FE77225BAC9E008634B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7C0A59225BACEE00545DDB /* AppDelegate.h in Headers */,
+				AB7C0A5B225BACF300545DDB /* CSNibParser.h in Headers */,
+				AB7C0A5D225BACF700545DDB /* NibDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		ABC2FE52225BA7B8008634B6 /* NibUnlocker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC2FE6A225BA7BA008634B6 /* Build configuration list for PBXNativeTarget "NibUnlocker" */;
 			buildPhases = (
+				ABC2FE77225BAC9E008634B6 /* Headers */,
 				ABC2FE4F225BA7B8008634B6 /* Sources */,
 				ABC2FE50225BA7B8008634B6 /* Frameworks */,
 				ABC2FE51225BA7B8008634B6 /* Resources */,
@@ -104,6 +133,14 @@
 				TargetAttributes = {
 					ABC2FE52225BA7B8008634B6 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.HardenedRuntime = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -130,9 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC2FE60225BA7BA008634B6 /* Assets.xcassets in Resources */,
-				ABC2FE5E225BA7B8008634B6 /* Document.xib in Resources */,
-				ABC2FE63225BA7BA008634B6 /* MainMenu.xib in Resources */,
+				ABC2FE72225BABE6008634B6 /* English.lproj in Resources */,
+				ABC2FE60225BA7BA008634B6 /* NibUnlocker.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,32 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC2FE5B225BA7B8008634B6 /* Document.m in Sources */,
+				AB7C0A61225BAD4700545DDB /* AppDelegate.m in Sources */,
 				ABC2FE66225BA7BA008634B6 /* main.m in Sources */,
-				ABC2FE58225BA7B8008634B6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		ABC2FE5C225BA7B8008634B6 /* Document.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABC2FE5D225BA7B8008634B6 /* Base */,
-			);
-			name = Document.xib;
-			sourceTree = "<group>";
-		};
-		ABC2FE61225BA7BA008634B6 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABC2FE62225BA7BA008634B6 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABC2FE68225BA7BA008634B6 /* Debug */ = {
@@ -205,7 +221,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.2.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2.1.0;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -223,10 +243,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = NibUnlockerVer.c;
 			};
 			name = Debug;
 		};
@@ -264,7 +285,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.2.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TYR55Y75T7;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 2.1.0;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -276,9 +301,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_BUILDER = "AnV Software";
+				VERSION_INFO_FILE = NibUnlockerVer.c;
 			};
 			name = Release;
 		};
@@ -290,11 +316,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TYR55Y75T7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = NibUnlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnV.Software.NibUnlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -308,11 +336,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TYR55Y75T7;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = NibUnlocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnV.Software.NibUnlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
